@@ -27,9 +27,10 @@ soup = bs4.BeautifulSoup(response.text,'lxml')
 
 # Titles of results are found (Assumed that Google put h3 only on result titles)
 titles = soup.find_all("h3")
-mydivs = soup.find_all("div", {"class": "IZ6rdc"})
+mydivs = soup.find_all("div", {"class": "BNeawe s3v9rd AP7Wnd"})
 # <div class="IZ6rdc">Mahatma Gandhi</div>
+# div class="BNeawe s3v9rd AP7Wnd"
 
 print(mydivs)
-print(soup)
+# print(soup)
 # 	print( str(x) + ". " + title.get_text() )

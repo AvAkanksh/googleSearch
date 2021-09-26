@@ -40,6 +40,7 @@ mydivs = soup.find_all("div", {"class": "IZ6rdc"})
 
 # print("\nDISPLAYING FIRST PAGE RESULT TITLES FOR " + keyword + "\n")
 print(mydivs)
+print(soup)
 # x = 0; # counter variable
 # for title in titles: #loop to display titles
 # 	x=x+1 # counter updated

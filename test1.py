@@ -31,6 +31,7 @@ mydivs = soup.find_all("div", {"class": "BNeawe s3v9rd AP7Wnd"})
 # <div class="IZ6rdc">Mahatma Gandhi</div>
 # div class="BNeawe s3v9rd AP7Wnd"
 
-print(mydivs)
+# print(mydivs)
+print(len(mydivs))
 # print(soup)
 # 	print( str(x) + ". " + title.get_text() )

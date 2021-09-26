@@ -1,3 +1,4 @@
+import sys
 print("Hello World")
-num = input("Enter a value : ")
+num = sys.argv
 print("You have entered : ",num)

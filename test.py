@@ -33,5 +33,6 @@ mydivs = soup.find_all("div", {"class": "BNeawe s3v9rd AP7Wnd"})
 
 # print(mydivs)
 print(len(mydivs))
-# print(soup)
-# 	print( str(x) + ". " + title.get_text() )
+for i in range(len(my_divs)):
+ 	print( mydivs[i].get_text() )
+  print("+"*100)
